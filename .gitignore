@@ -1,0 +1,25 @@
+# Android Studio / IntelliJ
+.idea/
+.gradle/
+build/
+*.iml
+local.properties
+.DS_Store
+
+# Android / Gradle
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aar
+*.jks
+*.keystore
+
+# Google Play Services
+google-services.json
+
+# Logs
+*.log
+
+# Temp
+tmp/

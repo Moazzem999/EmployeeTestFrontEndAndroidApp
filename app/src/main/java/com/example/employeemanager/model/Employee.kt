@@ -1,0 +1,23 @@
+package com.example.employeemanager.model
+
+data class Employee(
+    val id: Int = 0,
+    val name: String,
+    val email: String,
+    val phone: String,
+    val salary: Double
+)
+
+data class CreateEmployeeDto(
+    val name: String,
+    val email: String,
+    val phone: String,
+    val salary: Double
+)
+
+data class UpdateEmployeeDto(
+    val name: String,
+    val email: String,
+    val phone: String,
+    val salary: Double
+)
