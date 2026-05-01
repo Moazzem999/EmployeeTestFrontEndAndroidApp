@@ -13,7 +13,7 @@ class EmployeeViewModel(private val repository: EmployeeRepository) : ViewModel(
     private val _employees = MutableLiveData<List<Employee>>()
     val employees: LiveData<List<Employee>> = _employees
 
-    private val _isLoading = MutableLiveData<Boolean>()
+    private val _isLoading = MutableLiveData<Boolean>(false)
     val isLoading: LiveData<Boolean> = _isLoading
 
     private val _error = MutableLiveData<String?>()
